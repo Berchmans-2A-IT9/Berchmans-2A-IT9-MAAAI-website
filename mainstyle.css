@@ -1,0 +1,204 @@
+body{
+		font-family: 'Roboto Slab', serif;
+		background-color:F8F6E8;
+		color:#92460F; 
+		padding-top:0px;
+		margin-top:0px;	
+		}
+h1.banner{
+		color:white;
+		text-align:Left;
+	}
+
+h1.body{
+		color:#692519;
+		text-align: center;
+	}
+
+h1#header{
+		width:800px;
+		color:white;
+		background-color:rgb(0,0,0,0);
+		line-height:140px;
+		font-size:100px;
+		position:absolute;
+		top:5px; 
+		left:50px	
+		}	
+
+h2{
+		color:#692519;
+		text-align: left;
+		}
+	
+table, th, td {
+		border: 1px solid black;
+	}
+div#content{
+		background-color:white;
+		margin-right: 150px;
+		margin-left: 90px;
+		padding: 20px;
+		border-radius: 15px;
+	}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #B2695C;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #692519;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+div#header{
+		background:url(banner.png) no-repeat;		
+		line-height:150px;
+		width:1744px;
+		height:300px;
+		margin-top:0px;
+		margin-left:0px;		
+		margin-bottom:0px;
+		padding: 0 70 0 73; 
+		}
+img{
+		float: right;
+		width: 320;
+		height: 200;
+		}
+img.cp{
+		width: 300;
+		height: 180;
+}
+
+
+img.rrl{
+		float: right;
+		width: 280;
+		height: 150;
+		}
+
+img.bg2{
+		float: right;
+		width: 390;
+		height: 250;
+		}
+
+img.bg3{
+		float: right;
+		width: 490;
+		height: 300;
+		}
+
+img.stp{
+		position: absolute;
+		width: 590;
+		height: 390;
+		}
+img.tml{
+		position: absolute;
+		width: 1000;
+		height: 590;
+		}
+img.tml3{
+		position: absolute;
+		width: 1000;
+		height: 390;
+		}
+
+img.vdis{
+		position: absolute;
+		width: 610;
+		height: 360;
+		}
+	
+img.vdis1{
+		float:right;
+		width: 610;
+		height: 360;
+		}
+
+		
+a#backtotop:link{ 		
+	color:grey;
+	font-size:20px;
+	padding:10px 15px;
+	text-decoration:none;
+	border:2px dashed grey;
+	}
+	
+a#backtotop:visited{ 		
+	color:black;
+	font-size:20px;
+	padding:10px 15px;
+	text-decoration:none;
+	border:2px dashed grey;
+	}
+	
+a#backtotop:hover{			
+	border:none;
+}	
+
+div#sidebar{
+		background-color: #B2695C;
+		width:15%;
+		height:50%;	
+		margin-left:20px;
+		margin-top:30px;
+		float:right; 
+		position: absolute;
+		left:80%
+		
+		}
+
+		
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #B2695C;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #692519;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+
